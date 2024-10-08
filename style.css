@@ -281,6 +281,7 @@ section {
 }
 
 .about-details-container {
+    margin-top: 2rem;
     justify-content: center;
     flex-direction: column;
 }
