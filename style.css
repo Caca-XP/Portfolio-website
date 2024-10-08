@@ -150,7 +150,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 100vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -278,6 +278,11 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+
+.about-me {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 .about-details-container {
