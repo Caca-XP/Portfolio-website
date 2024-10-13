@@ -374,15 +374,28 @@ article .icon {
     position: relative;
 }
 
+.projects-container {
+    display: flex;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+
+    .article-container {
+        width: unset;
+        height: 40vh;
+    }
+}
+
 .color-container {
+    scroll-snap-align: center;
     border-color: rgb(163,163,163);
     background: rgb(250,250,250);
 }
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    /* width: 90%; */
+    height: 100%;
 }
 
 .project-title {
